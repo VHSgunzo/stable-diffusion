@@ -14,7 +14,7 @@ chmod +x stable-diffusion
 * **After a successful start, open the [web interface](http://127.0.0.1:7860) in the browser**
 ![image](https://user-images.githubusercontent.com/57139938/208247917-8caf9936-a5fc-4dd7-8e15-a0ec32665275.png)
 
-* RunImage container runs in overlays mode and all changes with stable-diffusion can be made in the directory next to the container:
+* RunImage container runs in OverlayFS mode and all changes with stable-diffusion can be made in the directory next to the container:
 ```
 cache/overlayfs/stable-diffusion/mnt/rootfs/opt/stable-diffusion
 ```
