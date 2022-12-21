@@ -1,0 +1,6 @@
+#!/bin/bash
+export install_dir="/opt"
+SRCDIR="/opt/stable-diffusion"
+export XDG_CACHE_HOME="$SRCDIR/cache"
+cd "$SRCDIR"
+./webui.sh "$@"

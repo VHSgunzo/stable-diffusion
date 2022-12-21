@@ -2,7 +2,7 @@
 [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) based on [RunImage](https://github.com/VHSgunzo/runimage)
 
 ## To get started:
-* **Download the [latest](https://mega.nz/file/gQs0UYya#ZWVGzgs5jxD6M7CAnN6YeHW7olHx5XnqACyFzfsU-uM) revision**
+* **Download the [latest](https://mega.nz/file/FdshwBCR#fOJY1-rncBsu6heL1gfreadAIhYScq0Rhc5KVj_9T6k) revision**
 * **Make it executable before run:**
 ```
 chmod +x stable-diffusion
@@ -19,7 +19,7 @@ chmod +x stable-diffusion
 cache/overlayfs/stable-diffusion/mnt/rootfs/opt/stable-diffusion
 ```
 
-* By default, stable-diffusion saves the results in the directory next to the container: 
+* By default, stable-diffusion saves the results in the directory next to the container:
 ```
 cache/overlayfs/stable-diffusion/mnt/rootfs/opt/stable-diffusion/outputs
 cache/overlayfs/stable-diffusion/mnt/rootfs/opt/stable-diffusion/log
